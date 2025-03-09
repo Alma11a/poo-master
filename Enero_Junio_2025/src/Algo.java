@@ -24,6 +24,6 @@ public class Algo{
         Object obj=new Object();
         Coche cochecito=new Coche();
         motos.add(motito);
-        coche.add(cochecito);
+
     }
 }
