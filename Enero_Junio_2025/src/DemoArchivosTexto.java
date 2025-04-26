@@ -5,7 +5,7 @@ public class DemoArchivosTexto {
         File arch=new File("miArchivo.txt");
         FileReader fr=new FileReader(arch);
         FileWriter fw=new FileWriter("./src/copia.txt");
-        
+
         int c;
         while ((c=fr.read())!=-1){
             System.out.println((char)c);
